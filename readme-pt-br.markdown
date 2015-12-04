@@ -1,12 +1,12 @@
 # ES6: Visão geral em 350 pontos chaves
 
-[ES6 in Depth][39] é uma serie que consiste em 24 artigos, na abordagem das mudanças de sintax e features vindas do ES6. este artigo tem como objetivo resumir todo ES6, proporcionando uma visão prática em ES6, para você iniciar rapidamente em seus estudos, Eu também linkei aos artigos de ES6, alguns links para que você possa facilmente ir mais fundo em qualquer assunto que tenha interesse.
+[ES6 in Depth][39] é uma serie que consiste em 24 artigos, sobre as mudanças de sintax e features vindas do ES6. Este artigo tem como objetivo resumir todos esses pontos, proporcionando uma visão prática em ES6, para você iniciar rapidamente em seus estudos. Eu também adicionei links relacionados aos artigos de ES6, para que você possa facilmente ir mais fundo em qualquer assunto que tenha interesse.
 
-Ouvi dizer que voce gosta de pontos chave, entao eu criei um artigo contendo centenas desses bad boys. Para facilitar a busca, segue abaixo uma tabela contendo todos os assuntos abordados. Cada uma contem um ponto chave -- **obviamente**. Se voce realmente deseja que estes conceitos preencham sua mente, voce deverá se [aprofundar no assunto][39] praticando e experimentando com códigos ES6
+Ouvi dizer que você gosta de pontos chave, então criei um artigo contendo centenas desses. Para facilitar a busca, segue abaixo uma tabela contendo todos os assuntos abordados. Cada uma contem um ponto chave -- **obviamente**. Se voce realmente deseja que estes conceitos preencham sua mente, você deverá se [aprofundar no assunto][39] praticando e experimentando com códigos ES6.
 
-![É hora do SHOW!][40]
+![É Hora do SHOW!][40]
 
-# Conteudo
+# Sumário
 
 - [Introdução](#introducao)
 - [Tooling](#tooling)
@@ -34,20 +34,19 @@ Ouvi dizer que voce gosta de pontos chave, entao eu criei um artigo contendo cen
 - [Strings e Unicode](#strings-e-unicode)
 - [Modules](#modules)
 
-Apologies about that long table of contents, and here we go.
+Peço desculpas pelo longo sumário, e lá vamos nós.
 
 # Introdução
 
 - ES6 -- também conhecido como Harmony, `es-next` e ES2015 -- é a especificação mais recente finalizada da linguagem
-- A especificação do ES6 foi finalizada em **Junho de 2015**, _(daí o nome ES2015)_
-- Versões futuras da especificação seguirão o padrão `ES[ano]`, exemplo ES2016 para ES7
+- A especificação do ES6 foi finalizada em **Junho de 2015**, _(logo o nome ES2015)_
+- Versões futuras da especificação seguirão o padrão `ES[ano]`, exemplo ES2016 para ES7.
   - **Cronograma anual de lançamento**, features that don't make the cut take the next train
-  - Since ES6 pre-dates that decision, most of us still call it ES6
-  - Começando com ES2016 (ES7), nos devemos iniciar usando o padrão`ES[ano]` para referenciar versões mais recentes
-  - Top reason for naming scheme is to pressure browser vendors into quickly implementing newest features
-  - A maior razão para () é que fabricantes dos browesers tem pressionado para implementar rapidamente novas funcionalidades
+  - Como o ES6 antecipa esta decisão, ainda podemos chamar de ES6.
+  - Começando com ES2016 (ES7), nós devemos iniciar usando o padrão `ES[ano]` para referenciar versões mais recentes.
+  - A maior razão para a mudança no esquema de nomenclatura é que mantenedores dos browsers vem pressionando a implementação mais rapida de novas funcionalidades.
 
-<sup>[(back to table of contents)](#table-of-contents)</sup>
+<sup>[(voltar ao sumário)](#table-of-contents)</sup>
 
 # Tooling
 
@@ -460,7 +459,7 @@ Apologies about that long table of contents, and here we go.
   - [`String.prototype.normalize`](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth#stringprototypenormalize) -- retorna uma versão normalizada da representação unicode da strings
 - Leia [ES6 Strings and Unicode Additions in Depth][23]
 
-<sup>[(voltar ao indice de conteudos)](#indice-do-conteudo)</sup>
+<sup>[(voltar ao sumário)](#indice-do-conteudo)</sup>
 
 # Modules
 
